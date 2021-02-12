@@ -6,7 +6,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 
-export default function SongList(){
+export default function SongManager(){
     return (
         <View style={styles.container}>
             <Text>Testing Song List</Text>

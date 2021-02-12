@@ -6,7 +6,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import SongList from '../components/screens/SongLists';
+import SongManager from '../components/screens/SongManager';
 
 
 const MainNavStack = createStackNavigator(); 
@@ -18,7 +18,7 @@ export default function AppNavigation(){
             <MainNavStack.Navigator>
                 <MainNavStack.Screen
                     name="Listado"
-                    component={SongList}
+                    component={SongManager}
                 />
             </MainNavStack.Navigator>
         </NavigationContainer>
