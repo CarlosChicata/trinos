@@ -5,11 +5,18 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
+import SongItemList from '../tags/SongItemList';
+
 
 export default function SongManager(){
     return (
         <View style={styles.container}>
             <Text>Testing Song List</Text>
+            <SongItemList 
+                title="Hola que tal?" 
+                subtitle="tesitng" 
+                idx={1}
+            />
         </View>
     );
 }
